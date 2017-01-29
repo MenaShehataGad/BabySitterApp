@@ -10,8 +10,16 @@
 		394000021E3D38C300ABFDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394000001E3D38C300ABFDAF /* Main.storyboard */; };
 		394000041E3D38C300ABFDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394000031E3D38C300ABFDAF /* Assets.xcassets */; };
 		394000071E3D38C300ABFDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394000051E3D38C300ABFDAF /* LaunchScreen.storyboard */; };
+		3940000F1E3D520C00ABFDAF /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940000E1E3D520C00ABFDAF /* GridViewController.swift */; };
+		394000131E3D730C00ABFDAF /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394000121E3D730C00ABFDAF /* Employee.swift */; };
+		394000151E3D755C00ABFDAF /* CollectionViewEmpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394000141E3D755C00ABFDAF /* CollectionViewEmpCell.swift */; };
+		394000171E3DAE3200ABFDAF /* TableViewEmpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394000161E3DAE3200ABFDAF /* TableViewEmpCell.swift */; };
 		3940FFFD1E3D38C300ABFDAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940FFFC1E3D38C300ABFDAF /* AppDelegate.swift */; };
 		3940FFFF1E3D38C300ABFDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940FFFE1E3D38C300ABFDAF /* ViewController.swift */; };
+		394C93D81E3DC12E0044A639 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C93D71E3DC12E0044A639 /* ListViewController.swift */; };
+		394C93DA1E3DC4DF0044A639 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C93D91E3DC4DF0044A639 /* MapViewController.swift */; };
+		394C93DD1E3DCD8A0044A639 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394C93DC1E3DCD8A0044A639 /* CoreLocation.framework */; };
+		39E400A51E3E6FFD00C035A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E400A41E3E6FFD00C035A5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +27,17 @@
 		394000031E3D38C300ABFDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394000061E3D38C300ABFDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		394000081E3D38C300ABFDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3940000E1E3D520C00ABFDAF /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		394000121E3D730C00ABFDAF /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		394000141E3D755C00ABFDAF /* CollectionViewEmpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewEmpCell.swift; sourceTree = "<group>"; };
+		394000161E3DAE3200ABFDAF /* TableViewEmpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewEmpCell.swift; sourceTree = "<group>"; };
 		3940FFF91E3D38C300ABFDAF /* BabySitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3940FFFC1E3D38C300ABFDAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3940FFFE1E3D38C300ABFDAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394C93D71E3DC12E0044A639 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		394C93D91E3DC4DF0044A639 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		394C93DC1E3DCD8A0044A639 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39E400A41E3E6FFD00C035A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E400A51E3E6FFD00C035A5 /* MapKit.framework in Frameworks */,
+				394C93DD1E3DCD8A0044A639 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				3940FFFB1E3D38C300ABFDAF /* BabySitter */,
 				3940FFFA1E3D38C300ABFDAF /* Products */,
+				394C93DB1E3DCD8A0044A639 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,27 @@
 			children = (
 				3940FFFC1E3D38C300ABFDAF /* AppDelegate.swift */,
 				3940FFFE1E3D38C300ABFDAF /* ViewController.swift */,
+				394000121E3D730C00ABFDAF /* Employee.swift */,
 				394000001E3D38C300ABFDAF /* Main.storyboard */,
+				394C93D91E3DC4DF0044A639 /* MapViewController.swift */,
+				394000141E3D755C00ABFDAF /* CollectionViewEmpCell.swift */,
+				3940000E1E3D520C00ABFDAF /* GridViewController.swift */,
+				394C93D71E3DC12E0044A639 /* ListViewController.swift */,
 				394000031E3D38C300ABFDAF /* Assets.xcassets */,
 				394000051E3D38C300ABFDAF /* LaunchScreen.storyboard */,
 				394000081E3D38C300ABFDAF /* Info.plist */,
+				394000161E3DAE3200ABFDAF /* TableViewEmpCell.swift */,
 			);
 			path = BabySitter;
+			sourceTree = "<group>";
+		};
+		394C93DB1E3DCD8A0044A639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E400A41E3E6FFD00C035A5 /* MapKit.framework */,
+				394C93DC1E3DCD8A0044A639 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394000171E3DAE3200ABFDAF /* TableViewEmpCell.swift in Sources */,
+				394000151E3D755C00ABFDAF /* CollectionViewEmpCell.swift in Sources */,
 				3940FFFF1E3D38C300ABFDAF /* ViewController.swift in Sources */,
+				394000131E3D730C00ABFDAF /* Employee.swift in Sources */,
+				3940000F1E3D520C00ABFDAF /* GridViewController.swift in Sources */,
 				3940FFFD1E3D38C300ABFDAF /* AppDelegate.swift in Sources */,
+				394C93D81E3DC12E0044A639 /* ListViewController.swift in Sources */,
+				394C93DA1E3DC4DF0044A639 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UXSZ88W7HM;
 				INFOPLIST_FILE = BabySitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shehata.Mina.BabySitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UXSZ88W7HM;
 				INFOPLIST_FILE = BabySitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shehata.Mina.BabySitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +335,7 @@
 				3940000D1E3D38C300ABFDAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3940FFF41E3D38C300ABFDAF /* Build configuration list for PBXProject "BabySitter" */ = {
 			isa = XCConfigurationList;
